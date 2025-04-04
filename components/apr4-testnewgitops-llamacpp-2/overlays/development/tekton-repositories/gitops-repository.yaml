@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: apr4-testnewgitops-llamacpp-2-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/apr4-testnewgitops-llamacpp-2-gitops

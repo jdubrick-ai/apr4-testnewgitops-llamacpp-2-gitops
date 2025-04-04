@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apr4-testnewgitops-llamacpp-2-database-config
+data:
+  VECTORDB_HOST: "apr4-testnewgitops-llamacpp-2-database"
+  VECTORDB_PORT: ""
